@@ -15,6 +15,9 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Story Hut — Self-Publish Your Way",
   description: "Self-publish your stories, your way.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
